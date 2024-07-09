@@ -142,6 +142,10 @@ section {
   background-color: transparent;
   outline: none;
 }
+.learn-more-btn:hover {
+  background-color: #212325;
+  color: white;
+}
 .bg-image {
   background-image: linear-gradient(to right, #fafafb, #ffffff);
 }
