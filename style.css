@@ -204,6 +204,14 @@ iframe {
   margin-bottom: 40px;
   gap: 20px;
 }
+.card-div h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 30px;
+  width: 350px;
+  letter-spacing: 1.5px;
+  color: rgb(33, 33, 34);
+}
 .card {
   width: 365px;
   width: 300px;
@@ -221,11 +229,11 @@ iframe {
   background-color: #fffdf2;
 }
 .know-more-btn {
-  font-size: 1rem;
+  font-size: 1.1rem;
   border-radius: 5px;
   background-color: transparent;
   color: black;
-  font-weight: 600;
+  font-weight: 800;
   padding: 10px 0px;
 }
 .card img,
