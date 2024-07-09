@@ -76,7 +76,6 @@ button {
   text-decoration: none;
 }
 .hero-text .contact-btn:hover {
-  transform: scaleX(1.02);
   background-color: #81a3e7;
   color: black;
 }
@@ -85,7 +84,7 @@ main {
   margin: 0 auto;
 }
 section {
-  margin-top: 40px;
+  margin-top: 45px;
 }
 .container {
   background-color: #fafafb;
