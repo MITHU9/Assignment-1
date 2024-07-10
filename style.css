@@ -110,11 +110,7 @@ section {
   font-weight: 800;
   padding: 10px;
 }
-.same-style {
-  color: rgb(93, 96, 99);
-  font-size: 1.1rem;
-  line-height: 25px;
-}
+
 .div-flex {
   display: flex;
   align-items: center;
@@ -326,6 +322,11 @@ h3 {
   outline: none;
   border: none;
   margin-left: 5px;
+}
+.same-style {
+  color: rgb(93, 96, 99);
+  font-size: 1.1rem;
+  line-height: 25px;
 }
 footer {
   width: 100%;
