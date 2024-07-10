@@ -274,6 +274,7 @@ h3 {
   line-height: 25px;
 }
 .contact-div {
+  width: 100%;
   text-align: center;
   background-image: linear-gradient(
       90deg,
