@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Azeret Mono", monospace;
 }
 button {
   cursor: pointer;
@@ -55,14 +60,14 @@ button {
   line-height: 25px;
 }
 .hero-title {
-  font-size: 4rem;
-  letter-spacing: 2px;
-  font-weight: 700;
-  line-height: 65px;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  line-height: 50px;
 }
 .hero .hero-text p {
   font-weight: 700;
-  width: 500px;
+  width: 600px;
   padding: 20px;
   margin: 0 auto;
   color: rgb(93, 96, 99);
@@ -73,7 +78,7 @@ button {
   font-size: 1.2rem;
   border-radius: 10px;
   color: #fff;
-  line-height: 50px;
+  line-height: 100px;
   background-color: black;
   border: none;
   transition: all 0.3s;
@@ -143,8 +148,10 @@ section {
   padding: 10px 15px;
   font-size: 1rem;
   border-radius: 5px;
+  text-decoration: none;
+  color: rgb(93, 96, 99);
   background-color: transparent;
-  outline: none;
+  border: 1px solid rgb(93, 96, 99);
 }
 .learn-more-btn:hover {
   background-color: #212325;
@@ -221,8 +228,8 @@ iframe {
   color: rgb(33, 33, 34);
 }
 .card {
-  width: 365px;
   width: 300px;
+  height: 350px;
   padding: 20px;
   border-radius: 20px;
   line-height: 25px;
